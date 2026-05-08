@@ -1,0 +1,51 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: #333;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.grid-standard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.game-card img:hover {
+    transform: scale(1.05);
+}
+
+/* Popular Section Layout */
+.grid-popular {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.large img {
+    height: 250px;
+    width: auto;
+}
